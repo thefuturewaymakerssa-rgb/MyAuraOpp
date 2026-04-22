@@ -1,0 +1,165 @@
+﻿Folder PATH listing
+Volume serial number is 7623-3596
+C:\USERS\NJONGO\MY-MVP1\APP
+|   error.tsx
+|   favicon.ico
+|   globals.css
+|   layout.tsx
+|   not-found.tsx
+|   page.tsx
+|   robots.ts
+|   sitemap.ts
+|   
++---(authenticated)
+|   |   layout.tsx
+|   |   
+|   +---admin
+|   |   \---dashboard
+|   |           page.tsx
+|   |           
+|   +---contracts
+|   |   \---[id]
+|   |           page.tsx
+|   |           
+|   +---dashboard
+|   |       page.tsx
+|   |       
+|   +---discovery
+|   |   |   page.tsx
+|   |   |   
+|   |   \---first-gigs
+|   |           page.tsx
+|   |           
+|   +---employer
+|   |   |   layout.tsx
+|   |   |   
+|   |   +---contracts
+|   |   |       page.tsx
+|   |   |       
+|   |   +---escrow
+|   |   |   \---new
+|   |   |           page.tsx
+|   |   |           
+|   |   +---feed
+|   |   |       page.tsx
+|   |   |       
+|   |   +---gigs
+|   |   |   |   page.tsx
+|   |   |   |   
+|   |   |   +---new
+|   |   |   |       page.tsx
+|   |   |   |       
+|   |   |   \---[id]
+|   |   |           page.tsx
+|   |   |           
+|   |   +---hub
+|   |   |       HubClient.tsx
+|   |   |       page.tsx
+|   |   |       
+|   |   +---saved
+|   |   |       page.tsx
+|   |   |       
+|   |   \---[id]
+|   |           page.tsx
+|   |           
+|   +---gigs
+|   |   |   page.tsx
+|   |   |   
+|   |   \---[id]
+|   |       |   page.tsx
+|   |       |   
+|   |       \---apply
+|   |               page.tsx
+|   |               
+|   +---messages
+|   |   |   layout.tsx
+|   |   |   page.tsx
+|   |   |   
+|   |   \---[id]
+|   |           page.tsx
+|   |           
+|   +---notifications
+|   |       page.tsx
+|   |       
+|   +---settings
+|   |       page.tsx
+|   |       
+|   +---talent
+|   |   |   layout.tsx
+|   |   |   
+|   |   +---dashboard
+|   |   |       DashboardClient.tsx
+|   |   |       page.tsx
+|   |   |       
+|   |   +---gigs
+|   |   |       page.tsx
+|   |   |       
+|   |   +---portfolio
+|   |   |       page.tsx
+|   |   |       
+|   |   +---studio
+|   |   |   |   page.tsx
+|   |   |   |   
+|   |   |   \---record
+|   |   |           page.tsx
+|   |   |           
+|   |   +---wallet
+|   |   |       page.tsx
+|   |   |       
+|   |   \---[id]
+|   |           page.tsx
+|   |           
+|   \---verification
+|           page.tsx
+|           
++---api
+|   +---employer
+|   |   \---jobs
+|   |           route.ts
+|   |           
+|   +---maker
+|   |   \---delete-proof
+|   |           route.ts
+|   |           
+|   +---payments
+|   |       route.ts
+|   |       
+|   +---proofs
+|   |       route.ts
+|   |       
+|   \---upload
+|           route.ts
+|           
++---auth
+|   \---callback
+|           route.ts
+|           
++---links
+|   \---[username]
+|           page.tsx
+|           
++---login
+|       page.tsx
+|       
++---onboarding
+|       page.tsx
+|       
++---privacy
+|       page.tsx
+|       
++---role-select
+|       page.tsx
+|       
++---signup
+|       page.tsx
+|       
++---support
+|       page.tsx
+|       
++---terms
+|       page.tsx
+|       
+\---u
+    \---[username]
+            page.tsx
+            

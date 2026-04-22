@@ -1,0 +1,2 @@
+﻿app/(authenticated)/dashboard/page.tsx(25,30): error TS2339: Property 'role' does not exist on type 'never'.
+app/(authenticated)/dashboard/page.tsx(27,37): error TS2339: Property 'role' does not exist on type 'never'.

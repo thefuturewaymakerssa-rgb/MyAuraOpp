@@ -1,0 +1,55 @@
+{
+  // Editor Settings
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // TypeScript/JavaScript
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // ESLint 9 (Flat Config) Support
+  "eslint.useFlatConfig": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  // Tailwind CSS 4
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "ts",
+    "typescript": "typescript",
+    "typescriptreact": "typescriptreact"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"],
+    ["cn\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"]
+  ],
+
+  // Emmet
+  "emmet.includeLanguages": {
+    "typescriptreact": "javascriptreact"
+  },
+
+  // File Nesting for Next.js Cleanliness
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock.json, .eslintrc*, .prettier*, tsconfig*, next.config*, tailwind.config*, postcss.config*",
+    "layout.tsx": "loading.tsx, error.tsx, not-found.tsx, template.tsx",
+    ".env": ".env.local, .env.development, .env.production, .env.example"
+  },
+
+  // Search/Files
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/.next": true
+  }
+}

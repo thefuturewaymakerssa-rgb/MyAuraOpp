@@ -1,0 +1,41 @@
+# Dependencies
+node_modules
+npm-debug.log*
+
+# Next.js build output
+.next
+out
+
+# Git
+.git
+.gitignore
+
+# Environment files (never in Docker image)
+.env
+.env.local
+.env.*.local
+
+# Dev / debug artifacts
+*.log
+*.txt
+backups
+tmp
+build_log*
+lint*
+eslint*
+tsc*
+errors*
+broken*
+parsed*
+all_*
+current_*
+tree-*
+
+# Test files
+tests
+coverage
+
+# Editor
+.vscode
+.idea
+*.swp

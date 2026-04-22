@@ -1,0 +1,119 @@
+﻿
+> my-mvp1@0.1.0 build
+> next build --webpack
+
+Γû▓ Next.js 16.1.6 (webpack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+ Γ£ô (pwa) Compiling for server...
+ Γ£ô (pwa) Compiling for server...
+ Γ£ô (pwa) Compiling for client (static)...
+ Γùï (pwa) Service worker: C:\Users\Njongo\my-mvp1\public\sw.js
+ Γùï (pwa)   URL: /sw.js
+ Γùï (pwa)   Scope: /
+Γ£ô Compiled successfully in 9.7s
+  Running TypeScript ...
+node.exe : Failed to 
+compile.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Failed to com   
+ pile.:String) [],     
+RemoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+
+.next/dev/types/validat
+or.ts:25:44
+Type error: Type 
+'Route' does not 
+satisfy the constraint 
+'LayoutRoutes'.
+  Type 'import("C:/User
+s/Njongo/my-mvp1/.next/
+dev/types/routes").Layo
+utRoutes' is not 
+assignable to type 'imp
+ort("C:/Users/Njongo/my
+-mvp1/.next/types/route
+s").LayoutRoutes'.
+    Type '"/maker"' is 
+not assignable to type 
+'LayoutRoutes'.
+
+[0m [90m 23 |[39m
+ [90m 24 |[39m type 
+[33mLayoutConfig[39m[
+33m<[39m[33mRoute[39
+m [36mextends[39m 
+[33mLayoutRoutes[39m 
+[33m=[39m [33mLayout
+Routes[39m[33m>[39m 
+[33m=[39m {
+[31m[1m>[22m[39m[9
+0m 25 |[39m   [36mdef
+ault[39m[33m:[39m [
+33mReact[39m[33m.[39
+m[33mComponentType[39
+m[33m<[39m[33mLayout
+Props[39m[33m<[39m[
+33mRoute[39m[33m>>[3
+9m [33m|[39m 
+((props[33m:[39m [33
+mLayoutProps[39m[33m<
+[39m[33mRoute[39m[3
+3m>[39m) [33m=>[39m 
+[33mReact[39m[33m.[
+39m[33mReactNode[39m 
+[33m|[39m [33mPromis
+e[39m[33m<[39m[33mR
+eact[39m[33m.[39m[3
+3mReactNode[39m[33m>
+[39m [33m|[39m never 
+[33m|[39m 
+[36mvoid[39m 
+[33m|[39m [33mPromis
+e[39m[33m<[39m[36mv
+oid[39m[33m>[39m)
+ [90m    |[39m       
+                       
+              
+[31m[1m^[22m[39m
+ [90m 26 |[39m   gene
+rateStaticParams[33m?
+[39m[33m:[39m 
+(props[33m:[39m { 
+params[33m:[39m [33m
+ParamMap[39m[[33mRout
+e[39m] }) 
+[33m=>[39m [33mPromi
+se[39m[33m<[39m[33m
+any[39m[][33m>[39m 
+[33m|[39m any[]
+ [90m 27 |[39m   gene
+rateMetadata[33m?[39m
+[33m:[39m (
+ [90m 28 |[39m     
+props[33m:[39m { 
+params[33m:[39m [33m
+Promise[39m[33m<[39m
+[33mParamMap[39m[[33
+mRoute[39m][33m>[39m
+ } [33m&[39m 
+any[33m,[39m[0m
+Next.js build worker 
+exited with code: 1 
+and signal: null

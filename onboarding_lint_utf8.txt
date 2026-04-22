@@ -1,0 +1,19 @@
+﻿
+C:\Users\Njongo\my-mvp1\app\onboarding\page.tsx
+    7:49   warning  'Star' is defined but never used                                       @typescript-eslint/no-unused-vars
+    7:55   warning  'Globe' is defined but never used                                      @typescript-eslint/no-unused-vars
+    7:62   warning  'MessageSquare' is defined but never used                              @typescript-eslint/no-unused-vars
+    7:103  warning  'Heart' is defined but never used                                      @typescript-eslint/no-unused-vars
+    7:110  warning  'MessageCircle' is defined but never used                              @typescript-eslint/no-unused-vars
+    7:125  warning  'Lock' is defined but never used                                       @typescript-eslint/no-unused-vars
+    7:131  warning  'ShieldAlert' is defined but never used                                @typescript-eslint/no-unused-vars
+    7:144  warning  'Wrench' is defined but never used                                     @typescript-eslint/no-unused-vars
+  190:10   warning  'capturing' is assigned a value but never used                         @typescript-eslint/no-unused-vars
+  190:21   warning  'setCapturing' is assigned a value but never used                      @typescript-eslint/no-unused-vars
+  414:27   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  424:25   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  492:16   warning  'e' is defined but never used                                          @typescript-eslint/no-unused-vars
+  609:63   warning  Unexpected any. Specify a different type                               @typescript-eslint/no-explicit-any
+
+Γ£û 14 problems (0 errors, 14 warnings)
+

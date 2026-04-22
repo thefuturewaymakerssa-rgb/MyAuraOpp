@@ -1,0 +1,14 @@
+﻿
+> my-mvp1@0.1.0 lint
+> eslint
+
+
+C:\Users\Njongo\my-mvp1\app\onboarding\page.tsx
+  1:1  warning  Unused eslint-disable directive (no problems were reported from '@next/next/no-img-element')
+
+C:\Users\Njongo\my-mvp1\app\u\[username]\page.tsx
+  325:25  warning  Unused eslint-disable directive (no problems were reported from '@next/next/no-img-element')
+
+Γ£û 2 problems (0 errors, 2 warnings)
+  0 errors and 2 warnings potentially fixable with the `--fix` option.
+

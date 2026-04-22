@@ -1,0 +1,116 @@
+﻿
+> future-waymakers@0.1.0 build
+> next build --webpack
+
+Γû▓ Next.js 16.1.6 (webpack)
+- Environments: .env.local
+
+node.exe : ΓÜá The 
+"middleware" file 
+convention is deprecated. 
+Please use "proxy" 
+instead. Learn more: https:
+//nextjs.org/docs/messages/
+middleware-to-proxy
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (ΓÜá  
+   The "middle...leware-   
+ to-proxy:String) [], R    
+emoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+  Creating an optimized production build ...
+ Γ£ô (pwa) Compiling for server...
+ Γ£ô (pwa) Compiling for server...
+ Γ£ô (pwa) Compiling for client (static)...
+ Γùï (pwa) Service worker: C:\Users\Njongo\my-mvp1\public\sw.js
+ Γùï (pwa)   URL: /sw.js
+ Γùï (pwa)   Scope: /
+Γ£ô Compiled successfully in 8.5s
+  Running TypeScript ...
+  Collecting page data using 7 workers ...
+ΓÜá∩╕Å  
+SUPABASE_SERVICE_ROLE_KEY 
+is missing! API is running 
+with ANON_KEY permissions 
+(RLS applies).
+  Generating static pages using 7 workers (0/43) ...
+ΓÜá∩╕Å  
+SUPABASE_SERVICE_ROLE_KEY 
+is missing! API is running 
+with ANON_KEY permissions 
+(RLS applies).
+  Generating static pages using 7 workers (10/43) 
+  Generating static pages using 7 workers (21/43) 
+  Generating static pages using 7 workers (32/43) 
+Γ£ô Generating static pages using 7 workers (43/43) in 861.2ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+Γöî ╞Æ /
+Γö£ Γùï /_not-found
+Γö£ ╞Æ /admin/dashboard
+Γö£ ╞Æ /admin/disputes
+Γö£ ╞Æ /admin/moderation
+Γö£ ╞Æ /api/cron/auto-release
+Γö£ ╞Æ /api/employer/jobs
+Γö£ ╞Æ /api/maker/delete-proof
+Γö£ ╞Æ /api/payments
+Γö£ ╞Æ /api/proofs
+Γö£ ╞Æ /api/upload
+Γö£ ╞Æ /auth/callback
+Γö£ ╞Æ /contracts/[id]
+Γö£ ╞Æ /dashboard
+Γö£ ╞Æ /employer/[id]
+Γö£ ╞Æ /employer/contracts
+Γö£ ╞Æ /employer/escrow/new
+Γö£ ╞Æ /employer/feed
+Γö£ ╞Æ /employer/gigs
+Γö£ ╞Æ /employer/gigs/[id]
+Γö£ ╞Æ /employer/gigs/new
+Γö£ ╞Æ /employer/hub
+Γö£ ╞Æ /employer/saved
+Γö£ ╞Æ /feed
+Γö£ ╞Æ /gigs
+Γö£ ╞Æ /gigs/[id]
+Γö£ ╞Æ /gigs/[id]/apply
+Γö£ ╞Æ /links/[username]
+Γö£ Γùï /login
+Γö£ ╞Æ /messages
+Γö£ ╞Æ /messages/[id]
+Γö£ ╞Æ /notifications
+Γö£ Γùï /onboarding
+Γö£ Γùï /privacy
+Γö£ Γùï /robots.txt
+Γö£ Γùï /role-select
+Γö£ ╞Æ /settings
+Γö£ Γùï /sitemap.xml
+Γö£ Γùï /support
+Γö£ ╞Æ /talent/[id]
+Γö£ ╞Æ /talent/contracts
+Γö£ ╞Æ /talent/dashboard
+Γö£ ╞Æ /talent/gigs
+Γö£ ╞Æ /talent/portfolio
+Γö£ ╞Æ /talent/studio
+Γö£ ╞Æ /talent/studio/record
+Γö£ ╞Æ /talent/wallet
+Γö£ Γùï /terms
+Γö£ ╞Æ /u/[username]
+Γöö ╞Æ /verification
+
+
+╞Æ Proxy (Middleware)
+
+Γùï  (Static)   prerendered as static content
+╞Æ  (Dynamic)  server-rendered on demand
+

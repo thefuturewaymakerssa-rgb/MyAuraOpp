@@ -1,0 +1,15 @@
+﻿
+  784:140  error    
+`"` can be escaped 
+with `&quot;`, 
+`&ldquo;`, `&#34;`, 
+`&rdquo;`  react/no-une
+scaped-entities
+  784:147  error    
+`"` can be escaped 
+with `&quot;`, 
+`&ldquo;`, `&#34;`, 
+`&rdquo;`  react/no-une
+scaped-entities
+
+

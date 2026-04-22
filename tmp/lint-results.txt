@@ -1,0 +1,46 @@
+﻿
+> future-waymakers@0.1.0 lint
+> eslint
+
+node.exe : (node:24580) 
+ESLintIgnoreWarning: The 
+".eslintignore" file is no 
+longer supported. Switch to 
+using the "ignores" property 
+in "eslint.config.js": https:
+//eslint.org/docs/latest/use/
+configure/migration-guide#ign
+oring-files
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: ((node:2  
+  4580) ES...#ignoring-fil   
+ es:String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+(Use `node --trace-warnings 
+...` to show where the 
+warning was created)
+
+C:\Users\Njongo\my-mvp1\tmp\fix-imports.js
+  1:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  2:14  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+C:\Users\Njongo\my-mvp1\tmp\refactor-schemas.js
+  1:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  2:14  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+C:\Users\Njongo\my-mvp1\tmp\update-types.js
+  1:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+Γ£û 5 problems (5 errors, 0 warnings)
+

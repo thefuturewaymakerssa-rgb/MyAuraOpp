@@ -1,0 +1,16 @@
+﻿app/(authenticated)/dashboard/page.tsx(25,20): error TS2339: Property 'role' does not exist on type 'never'.
+app/(authenticated)/dashboard/page.tsx(27,27): error TS2339: Property 'role' does not exist on type 'never'.
+app/auth/callback/route.ts(19,19): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type '{}'.
+  Type 'undefined' is not assignable to type '{}'.
+app/auth/callback/route.ts(23,21): error TS2339: Property 'role' does not exist on type 'never'.
+app/onboarding/page.tsx(374,10): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(values: never, options?: { onConflict?: string | undefined; ignoreDuplicates?: boolean | undefined; count?: "exact" | "planned" | "estimated" | undefined; } | undefined): PostgrestFilterBuilder<{ ...; }, ... 5 more ..., "POST">', gave the following error.
+    Argument of type '{ id: string; role: string; }' is not assignable to parameter of type 'never'.
+  Overload 2 of 2, '(values: never[], options?: { onConflict?: string | undefined; ignoreDuplicates?: boolean | undefined; count?: "exact" | "planned" | "estimated" | undefined; defaultToNull?: boolean | undefined; } | undefined): PostgrestFilterBuilder<...>', gave the following error.
+    Object literal may only specify known properties, and 'id' does not exist in type 'never[]'.
+app/onboarding/page.tsx(403,17): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(values: never, options?: { onConflict?: string | undefined; ignoreDuplicates?: boolean | undefined; count?: "exact" | "planned" | "estimated" | undefined; } | undefined): PostgrestFilterBuilder<{ ...; }, ... 5 more ..., "POST">', gave the following error.
+    Argument of type '{ id?: string | undefined; name?: string | null | undefined; email?: string | null | undefined; phone?: string | null | undefined; phone_number?: string | null | undefined; dob?: string | null | undefined; ... 14 more ...; created_at?: string | undefined; }' is not assignable to parameter of type 'never'.
+  Overload 2 of 2, '(values: never[], options?: { onConflict?: string | undefined; ignoreDuplicates?: boolean | undefined; count?: "exact" | "planned" | "estimated" | undefined; defaultToNull?: boolean | undefined; } | undefined): PostgrestFilterBuilder<...>', gave the following error.
+    Argument of type '{ id?: string | undefined; name?: string | null | undefined; email?: string | null | undefined; phone?: string | null | undefined; phone_number?: string | null | undefined; dob?: string | null | undefined; ... 14 more ...; created_at?: string | undefined; }' is not assignable to parameter of type 'never[]'.
+      Type '{ id?: string | undefined; name?: string | null | undefined; email?: string | null | undefined; phone?: string | null | undefined; phone_number?: string | null | undefined; dob?: string | null | undefined; ... 14 more ...; created_at?: string | undefined; }' is missing the following properties from type 'never[]': length, pop, push, concat, and 35 more.

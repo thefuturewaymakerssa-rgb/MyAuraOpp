@@ -1,0 +1,43 @@
+config:
+  target: "http://localhost:3000"
+  phases:
+    - duration: 60
+      arrivalRate: 5
+      rampTo: 20
+      name: "Warm up phase"
+    - duration: 60
+      arrivalRate: 20
+      rampTo: 50
+      name: "Ramp up phase"
+    - duration: 120
+      arrivalRate: 50
+      name: "Sustained peak load (100+ CCUs)"
+  defaults:
+    headers:
+      x-my-service-auth: "load-test-token"
+  # Disable strict SSL if hitting local dev server over https
+  tls:
+    rejectUnauthorized: false
+  
+scenarios:
+  - name: "Guest Browsing Feed Flow"
+    weight: 7
+    flow:
+      - get:
+          url: "/"
+      - get:
+          url: "/gigs"
+      - get:
+          url: "/terms"
+          
+  - name: "Auth Check (Rate Limit Stress)"
+    weight: 3
+    flow:
+      - get:
+          url: "/login"
+      # We just hit the discovery endpoint to trigger basic load, but without auth it will 401
+      # which validates that the edge MW handles rejects extremely fast without breaking
+      - get:
+          url: "/api/discovery/hybrid?q=test"
+          expect:
+            - statusCode: 401

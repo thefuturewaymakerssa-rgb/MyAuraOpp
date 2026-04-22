@@ -1,0 +1,13 @@
+﻿
+> future-waymakers@0.1.0 lint
+> eslint
+
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\hire\[makerId]\page.tsx
+  154:91  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\Njongo\my-mvp1\lib\supabase-helpers.ts
+  10:30  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+Γ£û 2 problems (2 errors, 0 warnings)
+

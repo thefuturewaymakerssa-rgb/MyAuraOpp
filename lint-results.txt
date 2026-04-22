@@ -1,0 +1,448 @@
+﻿
+> my-mvp1@0.1.0 lint
+> eslint
+
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\dashboard\page.tsx
+  25:34  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  27:41  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\discovery\first-gigs\page.tsx
+  3:29  warning  'ArrowRight' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\discovery\page.tsx
+   3:16  warning  'Search' is defined but never used                               @typescript-eslint/no-unused-vars
+   3:24  warning  'Zap' is defined but never used                                  @typescript-eslint/no-unused-vars
+   3:29  warning  'MapPin' is defined but never used                               @typescript-eslint/no-unused-vars
+   4:8   warning  'Link' is defined but never used                                 @typescript-eslint/no-unused-vars
+  12:93  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\employer\[id]\page.tsx
+   3:29   warning  'Star' is defined but never used                                 @typescript-eslint/no-unused-vars
+   3:35   warning  'Globe' is defined but never used                                @typescript-eslint/no-unused-vars
+   3:42   warning  'ShieldCheck' is defined but never used                          @typescript-eslint/no-unused-vars
+   3:55   warning  'Mail' is defined but never used                                 @typescript-eslint/no-unused-vars
+   3:73   warning  'Zap' is defined but never used                                  @typescript-eslint/no-unused-vars
+  10:9    warning  'id' is assigned a value but never used                          @typescript-eslint/no-unused-vars
+  34:15   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  34:163  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\employer\feed\page.tsx
+    4:10  warning  'ChevronUp' is defined but never used       @typescript-eslint/no-unused-vars
+    4:21  warning  'ChevronDown' is defined but never used     @typescript-eslint/no-unused-vars
+   18:11  error    Unexpected any. Specify a different type    @typescript-eslint/no-explicit-any
+   30:21  warning  'error' is assigned a value but never used  @typescript-eslint/no-unused-vars
+   52:35  error    Unexpected any. Specify a different type    @typescript-eslint/no-explicit-any
+   61:18  error    Unexpected any. Specify a different type    @typescript-eslint/no-explicit-any
+  132:16  error    Unexpected any. Specify a different type    @typescript-eslint/no-explicit-any
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\employer\gigs\[id]\page.tsx
+  3:10  warning  'Users' is defined but never used        @typescript-eslint/no-unused-vars
+  3:17  warning  'ShieldCheck' is defined but never used  @typescript-eslint/no-unused-vars
+  3:52  warning  'ArrowRight' is defined but never used   @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\employer\gigs\new\page.tsx
+  3:27  warning  'Camera' is defined but never used    @typescript-eslint/no-unused-vars
+  3:43  warning  'Zap' is defined but never used       @typescript-eslint/no-unused-vars
+  3:48  warning  'Info' is defined but never used      @typescript-eslint/no-unused-vars
+  5:10  warning  'useState' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\employer\gigs\page.tsx
+  3:67  warning  'Search' is defined but never used  @typescript-eslint/no-unused-vars
+  3:75  warning  'Filter' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\employer\hub\page.tsx
+    3:8   warning  'Link' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+    9:3   warning  'Heart' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+   12:3   warning  'LogOut' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+   13:3   warning  'User' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+   18:3   warning  'Briefcase' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           @typescript-eslint/no-unused-vars
+   19:3   warning  'ChevronRight' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+   20:3   warning  'Bell' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+   21:3   warning  'Clock' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+   25:3   warning  'MessageSquare' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       @typescript-eslint/no-unused-vars
+   46:36  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        @typescript-eslint/no-explicit-any
+   47:10  warning  'myJobs' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     @typescript-eslint/no-unused-vars
+   47:40  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        @typescript-eslint/no-explicit-any
+   73:42  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        @typescript-eslint/no-explicit-any
+  120:57  error    Error: Cannot call impure function during render
+
+`Date.now` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\employer\hub\page.tsx:120:57
+  118 |     if (query === "First Gigs") {
+  119 |        // Logic for first gigs: e.g., low proof count or specific tag (mocked here as new accounts)
+> 120 |        const isNew = new Date(m.created_at).getTime() > Date.now() - 30 * 24 * 60 * 60 * 1000;
+      |                                                         ^^^^^^^^^^ Cannot call impure function
+  121 |        return isNew;
+  122 |     }
+  123 |  react-hooks/purity
+  251:9   warning  'latestProofIndex' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\employer\layout.tsx
+  9:3  warning  'Users' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\gigs\[id]\apply\page.tsx
+   15:3    warning  'Gem' is defined but never used                                                                                      @typescript-eslint/no-unused-vars
+   31:34   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+   38:38   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+   79:21   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+   93:7    error    Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free  @typescript-eslint/ban-ts-comment
+  103:19   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  132:93   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                      react/no-unescaped-entities
+  132:115  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                      react/no-unescaped-entities
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\gigs\[id]\page.tsx
+  3:29  warning  'Zap' is defined but never used          @typescript-eslint/no-unused-vars
+  3:34  warning  'Star' is defined but never used         @typescript-eslint/no-unused-vars
+  3:40  warning  'ShieldCheck' is defined but never used  @typescript-eslint/no-unused-vars
+  3:64  warning  'Send' is defined but never used         @typescript-eslint/no-unused-vars
+  3:75  warning  'Globe' is defined but never used        @typescript-eslint/no-unused-vars
+  3:82  warning  'User' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\gigs\page.tsx
+    6:18  warning  'Briefcase' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            @typescript-eslint/no-unused-vars
+    6:37  warning  'Wrench' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+    6:93  warning  'Radar' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+  180:18  error    Error: Cannot call impure function during render
+
+`Date.now` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\gigs\page.tsx:180:18
+  178 | function JobCard({ job }: { job: Job }) {
+  179 |   const timeAgo = (dateStr: string) => {
+> 180 |     const diff = Date.now() - new Date(dateStr).getTime();
+      |                  ^^^^^^^^^^ Cannot call impure function
+  181 |     const h = Math.floor(diff / 3_600_000);
+  182 |     if (h < 1) return "Just now";
+  183 |     if (h < 24) return `${h}h ago`;  react-hooks/purity
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\layout.tsx
+  28:80  warning  'session' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\messages\[id]\page.tsx
+   3:47  warning  'Gem' is defined but never used          @typescript-eslint/no-unused-vars
+  11:9   warning  'id' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\messages\layout.tsx
+  5:33  warning  'Gem' is defined but never used     @typescript-eslint/no-unused-vars
+  5:38  warning  'Filter' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\notifications\page.tsx
+  3:10  warning  'Bell' is defined but never used  @typescript-eslint/no-unused-vars
+  3:36  warning  'Star' is defined but never used  @typescript-eslint/no-unused-vars
+  3:67  warning  'User' is defined but never used  @typescript-eslint/no-unused-vars
+  4:8   warning  'Link' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\profile\earnings\page.tsx
+  3:10  warning  'Wallet' is defined but never used        @typescript-eslint/no-unused-vars
+  3:57  warning  'CreditCard' is defined but never used    @typescript-eslint/no-unused-vars
+  3:69  warning  'ChevronRight' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\profile\edit\page.tsx
+  3:24  warning  'MapPin' is defined but never used     @typescript-eslint/no-unused-vars
+  3:32  warning  'Briefcase' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\profile\layout.tsx
+  5:58  warning  'ShieldCheck' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\profile\page.tsx
+   3:10   warning  'User' is defined but never used                                 @typescript-eslint/no-unused-vars
+   3:49   warning  'Star' is defined but never used                                 @typescript-eslint/no-unused-vars
+   3:62   warning  'StarHalf' is defined but never used                             @typescript-eslint/no-unused-vars
+  32:13   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  32:19   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  32:79   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  32:110  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\profile\saved\page.tsx
+  3:31  warning  'User' is defined but never used        @typescript-eslint/no-unused-vars
+  3:37  warning  'Star' is defined but never used        @typescript-eslint/no-unused-vars
+  3:43  warning  'ArrowRight' is defined but never used  @typescript-eslint/no-unused-vars
+  4:8   warning  'Link' is defined but never used        @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\profile\videos\page.tsx
+  3:10  warning  'Video' is defined but never used  @typescript-eslint/no-unused-vars
+  4:8   warning  'Link' is defined but never used   @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\settings\page.tsx
+   3:10   warning  'Settings' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            @typescript-eslint/no-unused-vars
+   3:60   warning  'Globe' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+   3:67   warning  'Gem' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 @typescript-eslint/no-unused-vars
+   4:8    warning  'Link' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+  55:130  error    Error: Cannot call impure function during render
+
+`Date.now` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\settings\page.tsx:55:130
+  53 |               <LogOut size={20} /> Secure Logout
+  54 |            </button>
+> 55 |            <p className="text-center text-[10px] font-black uppercase tracking-widest text-gray-800">Shapa Core v1.0.24 ΓÇö Build {Date.now()}</p>
+     |                                                                                                                                  ^^^^^^^^^^ Cannot call impure function
+  56 |         </section>
+  57 |       </div>
+  58 |     </div>  react-hooks/purity
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\talent\[id]\page.tsx
+   3:10   warning  'User' is defined but never used                                 @typescript-eslint/no-unused-vars
+   3:77   warning  'Briefcase' is defined but never used                            @typescript-eslint/no-unused-vars
+  39:15   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  39:157  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\talent\dashboard\page.tsx
+   10:3    warning  'Video' is defined but never used                                                                                    @typescript-eslint/no-unused-vars
+   11:3    warning  'Settings' is defined but never used                                                                                 @typescript-eslint/no-unused-vars
+   12:3    warning  'BarChart3' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+   13:3    warning  'LogOut' is defined but never used                                                                                   @typescript-eslint/no-unused-vars
+   14:3    warning  'Trash2' is defined but never used                                                                                   @typescript-eslint/no-unused-vars
+   15:3    warning  'ExternalLink' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+   19:3    warning  'Clock' is defined but never used                                                                                    @typescript-eslint/no-unused-vars
+   20:3    warning  'Wrench' is defined but never used                                                                                   @typescript-eslint/no-unused-vars
+   21:3    warning  'Loader2' is defined but never used                                                                                  @typescript-eslint/no-unused-vars
+   22:3    warning  'CheckCircle2' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+   23:3    warning  'AlertCircle' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+   27:3    warning  'Search' is defined but never used                                                                                   @typescript-eslint/no-unused-vars
+   31:3    warning  'Layout' is defined but never used                                                                                   @typescript-eslint/no-unused-vars
+   34:3    warning  'MessageSquare' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+   41:10   warning  'updating' is assigned a value but never used                                                                        @typescript-eslint/no-unused-vars
+   42:10   warning  'message' is assigned a value but never used                                                                         @typescript-eslint/no-unused-vars
+   43:38   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+   44:40   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+   46:54   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  145:9    error    Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free  @typescript-eslint/ban-ts-comment
+  156:9    warning  'handleUpdateProfile' is assigned a value but never used                                                             @typescript-eslint/no-unused-vars
+  164:9    error    Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free  @typescript-eslint/ban-ts-comment
+  178:19   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  185:9    warning  'handleDeleteProof' is assigned a value but never used                                                               @typescript-eslint/no-unused-vars
+  185:53   warning  'videoUrl' is defined but never used                                                                                 @typescript-eslint/no-unused-vars
+  325:132  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                      react/no-unescaped-entities
+  325:139  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                      react/no-unescaped-entities
+  429:136  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                      react/no-unescaped-entities
+  478:140  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                      react/no-unescaped-entities
+  478:147  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                      react/no-unescaped-entities
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\talent\studio\page.tsx
+  51:19   error  Unexpected any. Specify a different type                         @typescript-eslint/no-explicit-any
+  70:52   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  97:128  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\talent\studio\record\page.tsx
+   5:13  warning  'Settings' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+   5:50  warning  'MicIcon' is defined but never used                                                                               @typescript-eslint/no-unused-vars
+  19:10  warning  'showFilters' is assigned a value but never used                                                                  @typescript-eslint/no-unused-vars
+  19:23  warning  'setShowFilters' is assigned a value but never used                                                               @typescript-eslint/no-unused-vars
+  42:6   warning  React Hook useEffect has a missing dependency: 'stream'. Either include it or remove the dependency array         react-hooks/exhaustive-deps
+  59:6   warning  React Hook useEffect has a missing dependency: 'stopRecording'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\talent\wallet\page.tsx
+    8:3   warning  'Clock' is defined but never used         @typescript-eslint/no-unused-vars
+   13:3   warning  'TrendingUp' is defined but never used    @typescript-eslint/no-unused-vars
+   15:3   warning  'Loader2' is defined but never used       @typescript-eslint/no-unused-vars
+   16:3   warning  'CheckCircle2' is defined but never used  @typescript-eslint/no-unused-vars
+   24:40  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   25:52  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  124:39  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Njongo\my-mvp1\app\(authenticated)\verification\page.tsx
+  3:46  warning  'Zap' is defined but never used         @typescript-eslint/no-unused-vars
+  3:65  warning  'Globe' is defined but never used       @typescript-eslint/no-unused-vars
+  3:72  warning  'ArrowRight' is defined but never used  @typescript-eslint/no-unused-vars
+  4:8   warning  'Link' is defined but never used        @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\api\employer\jobs\route.ts
+  31:17  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Njongo\my-mvp1\app\api\maker\delete-proof\route.ts
+  34:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Njongo\my-mvp1\app\api\maker\update\route.ts
+  29:7   error  Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free  @typescript-eslint/ban-ts-comment
+  38:19  error  Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+
+C:\Users\Njongo\my-mvp1\app\api\save-maker\route.ts
+  29:7   error    Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free  @typescript-eslint/ban-ts-comment
+  34:84  error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  37:17  error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  57:64  error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  58:12  warning  'err' is defined but never used                                                                                      @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\api\upload\route.ts
+  41:13  warning  'data' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  63:17  error    Unexpected any. Specify a different type   @typescript-eslint/no-explicit-any
+
+C:\Users\Njongo\my-mvp1\app\auth\callback\route.ts
+  23:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Njongo\my-mvp1\app\login\page.tsx
+   4:22  warning  'ArrowRight' is defined but never used                           @typescript-eslint/no-unused-vars
+   4:34  warning  'User' is defined but never used                                 @typescript-eslint/no-unused-vars
+   4:40  warning  'Search' is defined but never used                               @typescript-eslint/no-unused-vars
+  24:19  error    Unexpected any. Specify a different type                         @typescript-eslint/no-explicit-any
+  74:16  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\Njongo\my-mvp1\app\onboarding\page.tsx
+    3:20   warning  'useRef' is defined but never used                                                                                   @typescript-eslint/no-unused-vars
+    5:8    warning  'Link' is defined but never used                                                                                     @typescript-eslint/no-unused-vars
+    8:31   warning  'Mail' is defined but never used                                                                                     @typescript-eslint/no-unused-vars
+    9:3    warning  'Lock' is defined but never used                                                                                     @typescript-eslint/no-unused-vars
+    9:9    warning  'Wrench' is defined but never used                                                                                   @typescript-eslint/no-unused-vars
+   18:14   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+   19:53   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+   51:19   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+   89:41   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                      react/no-unescaped-entities
+  145:91   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  173:40   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  186:36   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  188:24   warning  'e' is defined but never used                                                                                        @typescript-eslint/no-unused-vars
+  193:16   warning  'err' is defined but never used                                                                                      @typescript-eslint/no-unused-vars
+  221:41   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  232:29   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  259:112  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                      react/no-unescaped-entities
+  374:9    error    Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free  @typescript-eslint/ban-ts-comment
+  404:9    error    Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free  @typescript-eslint/ban-ts-comment
+  409:19   error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  502:33   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                      react/no-unescaped-entities
+  517:131  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                      react/no-unescaped-entities
+
+C:\Users\Njongo\my-mvp1\app\page.tsx
+  4:22  warning  'HelpCircle' is defined but never used  @typescript-eslint/no-unused-vars
+  4:34  warning  'Wrench' is defined but never used      @typescript-eslint/no-unused-vars
+  4:50  warning  'Briefcase' is defined but never used   @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\app\signup\page.tsx
+  3:10  warning  'useState' is defined but never used         @typescript-eslint/no-unused-vars
+  9:9   warning  'router' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\components\PWAInstallPrompt.tsx
+   7:56  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  11:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Njongo\my-mvp1\components\ProofCarousel.tsx
+   3:20  warning  'useEffect' is defined but never used                   @typescript-eslint/no-unused-vars
+  14:10  warning  'scrollProgress' is assigned a value but never used     @typescript-eslint/no-unused-vars
+  14:26  warning  'setScrollProgress' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\components\WorkRadar.tsx
+  15:11  warning  'latitude' is assigned a value but never used   @typescript-eslint/no-unused-vars
+  15:21  warning  'longitude' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Njongo\my-mvp1\hooks\useGeolocation.ts
+  22:7  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\Njongo\my-mvp1\hooks\useGeolocation.ts:22:7
+  20 |   useEffect(() => {
+  21 |     if (!navigator.geolocation) {
+> 22 |       setState((prev) => ({
+     |       ^^^^^^^^ Avoid calling setState() directly within an effect
+  23 |         ...prev,
+  24 |         error: "Geolocation is not supported by your browser",
+  25 |         loading: false,  react-hooks/set-state-in-effect
+
+C:\Users\Njongo\my-mvp1\middleware.ts
+  19:48  warning  'options' is defined but never used       @typescript-eslint/no-unused-vars
+  53:32  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Njongo\my-mvp1\next.config.js
+  1:17  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+C:\Users\Njongo\my-mvp1\public\sw.js
+  1:156  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:209  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:626  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+C:\Users\Njongo\my-mvp1\public\swe-worker-5c72df51bb1f6ee0.js
+  1:700  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+C:\Users\Njongo\my-mvp1\public\workbox-f1770938.js
+  1:49     warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:87     warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:211    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:257    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:298    warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:381    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:642    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:813    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:989    warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:1093   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:1738   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:2263   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:3058   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:3102   warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:3598   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:3727   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:7052   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:7234   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:7954   warning  'i' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:7962   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:8066   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:8368   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:9440   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:9550   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:9566   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:9627   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:9962   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:10038  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:10065  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:10081  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:10163  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:10963  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:11007  warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:11122  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:11194  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:11301  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:11382  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:11623  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:11941  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:12060  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:12464  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:12684  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:13012  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:13272  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:13319  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:13367  warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:14423  warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:14555  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:14599  warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:15097  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:15191  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:15404  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:15514  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:16025  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:16057  warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:16165  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:16591  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:16958  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:17076  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:17178  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:17458  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:17719  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:17903  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:19089  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:20040  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:20129  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:20260  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:20317  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:20514  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:20635  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:20768  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:20988  warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:21080  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:21657  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:21768  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:21988  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:22227  warning  'e' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:22385  warning  's' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:22450  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:22748  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:22962  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  1:23349  warning  't' is defined but never used                                          @typescript-eslint/no-unused-vars
+  1:23479  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+Γ£û 295 problems (77 errors, 218 warnings)
+

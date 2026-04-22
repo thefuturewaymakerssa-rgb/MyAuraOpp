@@ -1,0 +1,63 @@
+C:\Users\Njongo\my-mvp1\app\(authenticated)\messages\[id]\page.tsx
+  Line 222: Comments inside children section of tag should be placed inside braces
+C:\Users\Njongo\my-mvp1\app\(authenticated)\talent\layout.tsx
+  Line 59: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.
+C:\Users\Njongo\my-mvp1\components\NavigationProgress.tsx
+  Line 14: Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\Njongo\my-mvp1\components\NavigationProgress.tsx:14:5
+  12 |   useEffect(() => {
+  13 |     // Start progress on path change
+> 14 |     setLoading(true);
+     |     ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  15 |     setProgress(30);
+  16 |
+  17 |     const timer = setTimeout(() => {
+C:\Users\Njongo\my-mvp1\lib\supabase-helpers.ts
+  Line 35: React Hook "useClient" is called in function "fetchAll" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 40: React Hook "useClient" is called in function "fetchById" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 45: React Hook "useClient" is called in function "insert" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 50: React Hook "useClient" is called in function "update" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 55: React Hook "useClient" is called in function "upsert" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 64: React Hook "useClient" is called in function "fetchAll" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 69: React Hook "useClient" is called in function "fetchById" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 74: React Hook "useClient" is called in function "fetchRich" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 86: React Hook "useClient" is called in function "insert" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 90: React Hook "useClient" is called in function "update" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 94: React Hook "useClient" is called in function "upsert" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 98: React Hook "useClient" is called in function "addSkill" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 101: React Hook "useClient" is called in function "addSkill" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 106: React Hook "useClient" is called in function "removeSkill" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 108: React Hook "useClient" is called in function "removeSkill" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 116: React Hook "useClient" is called in function "fetchAll" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 121: React Hook "useClient" is called in function "insert" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 126: React Hook "useClient" is called in function "fetchForEmployer" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 135: React Hook "useClient" is called in function "upsert" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 148: React Hook "useClient" is called in function "insert" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 157: React Hook "useClient" is called in function "fetchOwn" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 168: React Hook "useClient" is called in function "insert" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 173: React Hook "useClient" is called in function "fetchForWallet" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 183: React Hook "useClient" is called in function "getOrCreate" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 195: React Hook "useClient" is called in function "insert" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 204: React Hook "useClient" is called in function "insert" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 213: React Hook "useClient" is called in function "insert" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 218: React Hook "useClient" is called in function "update" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 223: React Hook "useClient" is called in function "fetchByEmployer" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 228: React Hook "useClient" is called in function "fetchByMaker" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 237: React Hook "useClient" is called in function "get" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 242: React Hook "useClient" is called in function "set" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 250: React Hook "useClient" is called in function "fetchOwn" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 255: React Hook "useClient" is called in function "markAsRead" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 263: React Hook "useClient" is called in function "vouch" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 268: React Hook "useClient" is called in function "fetchForMaker" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 277: React Hook "useClient" is called in function "log" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 282: React Hook "useClient" is called in function "fetchOwn" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 293: React Hook "useClient" is called in function "uploadFile" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 299: React Hook "useClient" is called in function "uploadFile" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".
+  Line 310: React Hook "useClient" is called in function "deleteFile" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".

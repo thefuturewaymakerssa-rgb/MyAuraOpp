@@ -1,0 +1,19 @@
+﻿Folder PATH listing
+Volume serial number is 7623-3596
+C:\USERS\NJONGO\MY-MVP1\COMPONENTS
+    FeaturedBadge.tsx
+    GoogleSignInButton.tsx
+    LoadSheddingBanner.tsx
+    NavigationProgress.tsx
+    OnboardingTour.tsx
+    PayoutDrawer.tsx
+    ProofCarousel.tsx
+    PWAInstallPrompt.tsx
+    ReviewModal.tsx
+    SyncStatusAlert.tsx
+    TrustBadges.tsx
+    VerificationBadge.tsx
+    WorkRadar.tsx
+    
+No subfolders exist 
+

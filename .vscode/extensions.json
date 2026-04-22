@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "ms-playwright.playwright",
+    "supabase.supabase-sql",
+    "irongeek.vscode-env",
+    "christian-kohler.path-intellisense",
+    "vincaslt.highlight-matching-tag",
+    "dsznajder.es7-react-js-snippets"
+  ]
+}

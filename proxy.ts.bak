@@ -1,0 +1,87 @@
+import { createServerClient } from '@supabase/ssr'
+import { NextResponse, type NextRequest } from 'next/server'
+import { Database } from '@/lib/database.types'
+
+export async function proxy(request: NextRequest) {
+  let supabaseResponse = NextResponse.next({
+    request,
+  })
+
+  const supabase = createServerClient<Database>(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    {
+      cookies: {
+        getAll() {
+          return request.cookies.getAll()
+        },
+        setAll(cookiesToSet) {
+          cookiesToSet.forEach(({ name, value, options }) => request.cookies.set(name, value))
+          supabaseResponse = NextResponse.next({
+            request,
+          })
+          cookiesToSet.forEach(({ name, value, options }) =>
+            supabaseResponse.cookies.set(name, value, options)
+          )
+        },
+      },
+    }
+  )
+
+  // Refresh session if expired
+  const { data: { user } } = await supabase.auth.getUser()
+
+  // Define public routes that don't need authentication
+  const publicRoutes = [
+    '/',
+    '/login',
+    '/signup',
+    '/role-select',
+    '/onboarding',
+    '/privacy',
+    '/terms',
+    '/support',
+    '/vibe/',
+    '/links/',
+    '/u/',
+    '/jobs',
+    '/auth/',
+    '/api/',
+  ]
+  const isPublicRoute = publicRoutes.some(route => request.nextUrl.pathname === route || request.nextUrl.pathname.startsWith(route))
+
+  if (!user && !isPublicRoute) {
+    // Redirect unauthenticated users to login
+    const url = request.nextUrl.clone()
+    url.pathname = '/login'
+    return NextResponse.redirect(url)
+  }
+
+  // Inject pathname into headers so layouts can access it
+  const requestHeaders = new Headers(request.headers)
+  requestHeaders.set('x-pathname', request.nextUrl.pathname)
+  requestHeaders.set('x-url', request.url)
+
+  supabaseResponse = NextResponse.next({
+    request: {
+      headers: requestHeaders,
+    },
+  })
+
+  // Middleware should be lightweight. Role-based protection moved to layout/page level.
+  return supabaseResponse
+}
+
+export const config = {
+  matcher: [
+    /*
+     * Match all request paths except for:
+     * - _next/static (static files)
+     * - _next/image (image optimization files)
+     * - favicon.ico (favicon)
+     * - auth/callback (OAuth callback)
+     * Feel free to modify this pattern as needed.
+     */
+    '/((?!_next/static|_next/image|favicon.ico|auth/callback).*)',
+  ],
+}

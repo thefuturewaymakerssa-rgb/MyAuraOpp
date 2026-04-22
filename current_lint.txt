@@ -1,0 +1,10 @@
+﻿
+> future-waymakers@0.1.0 lint
+> eslint
+
+
+C:\Users\Njongo\my-mvp1\next.config.js
+  1:17  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+Γ£û 1 problem (1 error, 0 warnings)
+
