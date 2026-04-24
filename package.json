@@ -19,7 +19,7 @@
     "@ffmpeg/util": "^0.12.2",
     "@sentry/nextjs": "^10.49.0",
     "@supabase/ssr": "^0.9.0",
-    "@supabase/supabase-js": "^2.99.1",
+    "@supabase/supabase-js": "^2.104.1",
     "@upstash/ratelimit": "^2.0.8",
     "@upstash/redis": "^1.37.0",
     "autoprefixer": "^10.4.27",
