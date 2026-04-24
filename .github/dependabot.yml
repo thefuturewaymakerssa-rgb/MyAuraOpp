@@ -11,10 +11,21 @@ updates:
     labels:
       - dependencies
       - automated
-    # Only alert on minor+ updates — patch updates are too noisy
+    # Ignore major version updates for critical packages
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-patch"]
+      # Critical packages: require manual testing before major version bumps
+      - dependency-name: "eslint"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "next"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "react"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "postcss"
+        update-types: ["version-update:semver-major"]
     # Group all devDependency updates into a single PR
     groups:
       dev-dependencies:
