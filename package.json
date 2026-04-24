@@ -26,7 +26,7 @@
     "framer-motion": "^12.38.0",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.577.0",
-    "next": "16.1.6",
+    "next": "16.2.4",
     "openai": "^6.34.0",
     "postcss": "^8.5.8",
     "react": "19.2.3",
@@ -45,12 +45,15 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.1.6",
+    "eslint-config-next": "16.2.4",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
     "sharp": "^0.34.5",
     "tailwindcss": "^4.2.2",
     "ts-api-utils": "^2.5.0",
     "typescript": "^5"
+  },
+  "overrides": {
+    "serialize-javascript": "^7.0.5"
   }
 }
